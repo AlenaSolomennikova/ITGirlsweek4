@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="/fonts/Gilroy-Light.otf">
+    <link rel="stylesheet" href="/styles/stylefonts.css" as="font">
 
     <style>
         .menu {
@@ -14,6 +14,11 @@
             text-decoration: none;
             padding: 150px;
             font-weight: bolder;
+        }
+
+        h1,
+        h2 {
+            font-weight: lighter;
         }
 
         span {
@@ -71,6 +76,29 @@
 
         .Osnova .Photo {
             margin-top: 80px;
+        }
+
+        .Photo {
+
+            border-radius: 50%;
+            position: relative;
+            animation-name: circle;
+            animation-duration: 2.5s;
+        }
+
+        @keyframes circle {
+
+            0% {
+                left: 0%;
+            }
+
+            50% {
+                border-radius: 0%;
+            }
+
+            100% {
+                left: 50%;
+            }
         }
 
         footer {

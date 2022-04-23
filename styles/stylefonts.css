@@ -1,10 +1,10 @@
 @font-face 
 { 
     font-family: "GilroyThin";
-    src: url("/fonts/Gilroy-Light.otf") format("embedded-opentype"),
+    src: url("../fonts/Gilroy-Light.otf") format("embedded-opentype"),
     url("../fonts/GilroyThin/GilroyThin.woff") format("woff"),
-    url("/fonts/GilroyThin.woff2") format("woff2"),
+    url("../fonts/GilroyThin.woff2") format("woff2"),
     url("../fonts/GilroyThin/GilroyThin.ttf") format("truetype");
     font-style: normal;
-    font-weight: 100;
+    font-weight: bolder;
 }
